@@ -129,7 +129,7 @@ hr {
 	text-align: center;
 }
 .home-bg {
-    background-image: url("../img/chgo-3");
+    background-image: url("img/chgo-3.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@ hr {
  }
 /***** contact   *****/
 .contact-bg {
-    background-image: url(img/chgo-6);
+    background-image: url(img/chgo-6.jpg);
      background-position: center center;
      background-repeat: no-repeat; 
      background-size: cover;
