@@ -1,13 +1,11 @@
  body {
-	padding-top: 110px;
 	font-family: 'Cinzel', 'Open Sans', sans-serif;
 	font: 1rem/1.5 var(--bs-font-sans-serif);
 	color: #121214;
 	display: block;
 	height: 100%;
-	/* width: 100%; */
+	 width: 100%; 
 	overflow-x: hidden;
-	max-width: fit-content;
 }
 .color{ color:#075091; }
 .silver { color: #b4b9bd; }
@@ -47,8 +45,8 @@ hr {
 /****   navbar   ***/
 .top-blue {
 	width: 100%;
-	background-color:#075091;
 	height: 5rem;
+	background-color:#075091;
 	color: whitesmoke;
 }
 .top-contact {
@@ -68,29 +66,27 @@ hr {
 	--bs-btn-bg: #aaadae;
 }
 .navbar {
-	margin-top: 2.3rem;
-	
+	margin-top: 3rem;
 }
 .navbar-brand {
 	font-family: 'Cinzel', sans-serif;
 	font-weight: bold;
-	font-size: x-large;
+	font-size: 20px;
 	color: #075091;
-	padding-left: 1.5rem;
+	padding-left: 1.3rem;
 	letter-spacing: 4px;
-}
-.navbar-brand h1 {
-	font-size: 40px;
 }
 .sm-brand {
 	font-size: (--bs-navbar-brand-font-size);
-	font-size: medium;
+	font-size: small;
 	text-align: center;
 }	
 .navbar-toggler {
-	color:#075091;
 	padding: none;
-	border: 1px;
+	position: end;
+}
+.navbar-toggler-icon {
+	border-radius: none;
 }
 .nav li a {
 	color: #02010f;
@@ -125,7 +121,7 @@ hr {
 	overflow-x: hidden;
 }
 .homepage-section {
-	margin-top: 0px;
+	padding-top: 90px;
 }
 .home-bg {
     background-image: url("img/chgo-05.jpg");
@@ -134,10 +130,8 @@ hr {
     background-size: cover;
     background-attachment: fixed;
     background-color: transparent !important;
-    width: auto;
-    max-width: 100%;
-	min-height: inherit; 
-    height: 100%;
+   /* width: auto; 
+    height: 100%;*/
 }
 .home-statement {
 	margin: 0 7%;
@@ -148,7 +142,7 @@ hr {
 	background-color: #07519157;
 }
 .page-section, .contact-section{
- 	padding-top: 150px;
+	padding-top: 150px;
 }
 .container-fluid {
 	--bs-gutter-x: 0; 
@@ -161,6 +155,15 @@ hr {
 	font-weight: bold;
 	letter-spacing: 3px;
 	text-align: center;
+}
+.contact-statement {
+	margin: 0 10%;
+	padding: 2rem 8% 5rem;
+	font-weight: 400;
+	font-size: large;
+	color: white;
+	background-color: #07519157;
+	background-color: #687c8f3f;
 }
 .address .section-title {
 	color: whitesmoke;
@@ -214,16 +217,28 @@ html.opacity:hover img {
 	transition: all 350ms ease-in-out 0s;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
+/* Small devices (landscape phones, 576px and up)
 @media screen and(min-width: 576px) { 
-	body {padding-top: 150px }
-}
 
- /*Medium devices (tablets, 768px and up)*/
+}*/
+
+ /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+	.navbar-brand {
+		font-size: 30px;
+	}
+	.sm-brand {
+		font-size: 1rem;
+	}
+	.homepage-section {
+		padding-top: 140px;
+	}
+	.page-section, .contact-section{
+		padding-top: 180px;
+	}
  }
-/*
-// Large devices (desktops, 992px and up)
+
+/* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
 // X-Large devices (large desktops, 1200px and up)
