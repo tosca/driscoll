@@ -136,11 +136,6 @@ hr {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    /* background-color: transparent !important; */
-    /* width: 160px; */
-    /* height: 160px; */
-    /* resize: both; */
 }
 .home-statement {
 	margin: 0 7%;
