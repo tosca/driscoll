@@ -72,7 +72,7 @@ hr {
 .navbar-brand {
 	font-family: 'Cinzel', sans-serif;
 	font-weight: bold;
-	font-size: 21px;
+	font-size: 30px;
 	color: #075091;
 	padding-left: 0.5rem;
 	text-align: center;
@@ -240,6 +240,9 @@ html.opacity:hover img {
 @media (min-width: 768px) {
 		.page-section, .contact-section{
 		margin-top: 140px;
+		}
+		.navbar-brand {
+			font-size: 30px;
 		}	
  }
 
