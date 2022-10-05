@@ -131,16 +131,18 @@ hr {
 	height: 100%;
 	overflow-x: hidden;
 	}
-
+.homepage-section {
+	padding-top:0;
+}
 .home-bg {
     background-image: url("img/chgo-05.jpg");
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .home-statement {
 	margin: 0 7%;
-	padding: 2rem 8% 5rem;
+	padding: 2rem 7% 5rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
