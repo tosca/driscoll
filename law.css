@@ -1,7 +1,9 @@
  body {
 	font-family: 'Cinzel', 'Open Sans', sans-serif;
 	font: 1rem/1.5 var(--bs-font-sans-serif);
+	background-color: white;
 	color: #121214;
+	color: #28246a;
 	padding: 0;
 	margin: 0;
 	display: block;
@@ -9,13 +11,17 @@
 	width: 100%;
 	overflow-x: hidden;
 }
-.color{ color:#075091; }
+.color{ color:#075091;}
+.color {color:#28246a;}
+.color {color: #120f35;}
+.green {color:#65a548;} 
 .silver { color: #b4b9bd; }
 .black{ color:#121214; }
 .white { color: whitesmoke;}
 .bg-color {
 	background-color:whitesmoke;
 }
+
 img {
 	/* display: block; */
 	max-width: 100%;
@@ -52,11 +58,10 @@ hr {
 .top-blue {
 	width: 100%;
 	height: 5rem;
-	background-color:#075091;
+	background-color: #28246a;
+	background-color: #120f35;
+	
 	color: whitesmoke;
-}
-.top-contact {
-	margin-top: 3px;
 }
 .top-contact a {
 	color: whitesmoke;
@@ -71,18 +76,15 @@ hr {
 	--bs-btn-color: #fff;
 	--bs-btn-bg: #aaadae;
 }
+.bg-light {
+	background-color: white;
+}
 .navbar {
 	margin-top: 3rem;
+	padding: 0rem;
 }
 .navbar-brand {
-	font-family: 'Cinzel', sans-serif;
-	font-weight: bold;
-	font-size: 20px;
-	color: #075091;
-	padding-left: 0.5rem;
-	text-align: center;
-	letter-spacing: 4px;
-	line-height: 17px;
+	max-width: 60%;
 }
 .sm-brand {
 	font-size: (--bs-navbar-brand-font-size);
@@ -94,13 +96,13 @@ hr {
 }	
 .navbar-toggler {
 	padding: 0.2rem;
-	position: end;
 }
 .navbar-toggler-icon {
 	border-radius: none;
 }
 .nav li a {
-	color: #02010f;
+	 color: #28246a;
+	 font-weight:400; 
 }
 .nav-link {
 	color: #075091;
@@ -115,10 +117,11 @@ hr {
     background: 0 0;
     border: 0;
     border-radius: 0.5rem;
+    /* font-size: large; */
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color:#075091;
-	background-color: whitesmoke;
+    color: #357f12;
+    background-color: whitesmoke;
 }
 .navbar-brand a:hover, .nav-pills .nav-link a:hover {
 	    color:#075091;
@@ -134,9 +137,7 @@ hr {
 	height: 100%;
 	overflow-x: hidden;
 	}
-.homepage-section {
-	padding-top:0;
-}
+
 .home-bg {
     background-image: url("img/chgo-05.jpg");
     background-position: center center;
@@ -146,14 +147,15 @@ hr {
 }
 .home-statement {
 	margin: 0 7%;
-	padding: 2rem 7% 5rem;
+	padding: 5rem 7% 3rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
-	background-color: #07519157;
+	background-color: #120f355f;
+	
 }
 .page-section {
-	padding-top: 180px;
+	padding-top: 200px;
 	padding-bottom: 70px;
 }
 .container-fluid {
@@ -161,8 +163,8 @@ hr {
 }
 .section-title {
 	font-family: 'Cinzel', sans-serif;
-	color: #075091;
-	font-weight: bold;
+	color: #28246a;
+	font-weight: 700;
 	letter-spacing: 3px;
 	text-align: center;
 }
@@ -187,6 +189,8 @@ hr {
 	letter-spacing: 4px;
 	text-align: center;
 	/* line-height: 40px; */
+	font-weight: 400;
+	color: #28246a;
 }
  .link-title { 
 	 font-size: 1.5rem;
@@ -249,8 +253,15 @@ html.opacity:hover img {
 			padding-top: 120px;
 		}
 		.navbar-brand {
-			font-size: 30px;
-		}	
+			max-width: 23%;
+		}
+		.home-statement {
+			margin: 0 7%;
+			padding: 17rem 20% 7rem;
+		}
+		.nav-pills .nav-link {
+			font-size: medium;
+		}
  }
 
 /* Large devices (desktops, 992px and up)
@@ -260,11 +271,11 @@ html.opacity:hover img {
 @media (min-width: 1200px) { ... }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }*/
+@media (min-width: 1400px) {... }*/
 
 a {
-	color: #075091;
+	color: #28246a;
 }
 a:hover {
-	color:#212529;
+	color: #0b092d;
 }
