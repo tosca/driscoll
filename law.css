@@ -1,6 +1,7 @@
  body {
 	font-family: 'Cinzel', 'Open Sans', sans-serif;
 	font: 1rem/1.5 var(--bs-font-sans-serif);
+	font-weight: 400;
 	background-color: white;
 	color: #121214;
 	color: #28246a;
@@ -84,7 +85,7 @@ hr {
 	padding: 0rem;
 }
 .navbar-brand {
-	max-width: 60%;
+	max-width: 70%;
 }
 .sm-brand {
 	font-size: (--bs-navbar-brand-font-size);
@@ -160,6 +161,7 @@ hr {
 .section-title {
 	font-family: 'Cinzel', sans-serif;
 	color: #28246a;
+	/* font-weight: 400; */
 	letter-spacing: 3px;
 	text-align: center;
 }
