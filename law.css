@@ -1,6 +1,6 @@
  body {
 	font-family: 'Cinzel', 'Open Sans', sans-serif;
-	font: 1rem/1.5 var(--bs-font-sans-serif);
+	font: 1rem/2.0 var(--bs-font-sans-serif);
 	font-weight: 400;
 	background-color: white;
 	color: #121214;
@@ -45,8 +45,7 @@ img {
 	margin-right:40px;	
 }
 hr {
-	margin: 10px 0;
-	border-top: 3px solid #aaadae;
+	border-top: 2px solid #28246a;
 	opacity: 1;
 }
 
@@ -81,8 +80,9 @@ hr {
 	background-color: white;
 }
 .navbar {
-	margin-top: 3rem;
-	padding: 0rem;
+	margin-top: 2.5rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 }
 .navbar-brand {
 	max-width: 70%;
@@ -109,7 +109,6 @@ hr {
 	color: #075091;
 	font-weight: 600;
 	padding-bottom: 0rem;
-
 }
 .nav-link:focus, .nav-link:hover {
     color: #121214;
@@ -118,16 +117,14 @@ hr {
     background: 0 0;
     border: 0;
     border-radius: 0.5rem;
-    /* font-size: large; */
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #357f12;
-    background-color: whitesmoke;
+    color: #28246a;
+    background-color: #faf9f9;
 }
 .navbar-brand a:hover, .nav-pills .nav-link a:hover {
 	    color:#075091;
 }
-
 /**** page section  ****/
 .page-wrap {
 	position: relative;
@@ -136,7 +133,6 @@ hr {
 	width: auto;
 	overflow-x: hidden;
 	}
-
 .home-bg {
     background-image: url("img/chgo-05.jpg");
     background-position: center center;
@@ -160,18 +156,18 @@ hr {
 }
 .section-title {
 	font-family: 'Cinzel', sans-serif;
+	font-weight: 700;
 	color: #28246a;
-	/* font-weight: 400; */
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-align: center;
 }
 .contact-statement {
 	margin: 0 10%;
-	 padding: 2rem 5% 5rem;
+	padding: 3rem 5% 5rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
-	background-color: #120f355f; 
+	background-color: #120f355f;
 }
 .address .section-title {
 	color: whitesmoke;
@@ -186,9 +182,8 @@ hr {
 	text-align: center;	
 }
 .sub-heading{
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	text-align: center;
-	/* line-height: 40px; */
 	font-weight: 400;
 }
  .link-title { 
@@ -201,6 +196,10 @@ hr {
 	justify-content: center;
  }
 /***** contact   *****/
+
+.contact-section {
+	padding-top: 5rem;
+}
 .contact-bg {
     background-image: url(img/court-1.jpg);
     background-position: center center;
@@ -212,6 +211,12 @@ hr {
 }
 .address a:hover {
 	color: #888888;
+}
+.mailto {
+	font-size:smaller;
+	color: white;
+	letter-spacing:normal;
+
 }
 html.opacity:hover img {
 	opacity: 1;
@@ -239,27 +244,28 @@ html.opacity:hover img {
 			font-size: 1rem;
 		}
 }
-
  /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 		.page-section {
 			padding-top: 120px;
 		}
 		.navbar-brand {
-			max-width: 23%;
+			max-width: 35%;
 		}
 		.home-statement {
 			margin: 0 7%;
 			padding: 17rem 20% 7rem;
 		}
 		.nav-pills .nav-link {
-			font-size: medium;
+			font-size: large;
 		}
  }
-
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 	.home-bg {
+		background-attachment: fixed;
+	}
+	.contact-bg {
 		background-attachment: fixed;
 	}
  }
