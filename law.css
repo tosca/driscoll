@@ -1,6 +1,6 @@
  body {
 	font-family: 'Cinzel', 'Open Sans', sans-serif;
-	font: 1rem/2.0 var(--bs-font-sans-serif);
+	font: 1rem/1.8 var(--bs-font-sans-serif);
 	font-weight: 400;
 	background-color: white;
 	color: #121214;
@@ -10,6 +10,7 @@
 	display: block;
 	height: 100%;
 	width: 100%;
+	/* padding-top: 200px; */
 	overflow-x: hidden;
 }
 .color{ color:#075091;}
@@ -22,7 +23,6 @@
 .bg-color {
 	background-color:whitesmoke;
 }
-
 img {
 	/* display: block; */
 	max-width: 100%;
@@ -48,7 +48,6 @@ hr {
 	border-top: 2px solid #28246a;
 	opacity: 1;
 }
-
 .row:after {
 	content: "";
 	display: table;
@@ -80,7 +79,7 @@ hr {
 	background-color: white;
 }
 .navbar {
-	margin-top: 2.5rem;
+	margin-top: 2.8rem;
 	padding-top: 0rem;
 	padding-bottom: 0rem;
 }
@@ -121,6 +120,7 @@ hr {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #28246a;
     background-color: #faf9f9;
+    font-size: 16px;
 }
 .navbar-brand a:hover, .nav-pills .nav-link a:hover {
 	    color:#075091;
@@ -132,7 +132,10 @@ hr {
 	height: 100%;
 	width: auto;
 	overflow-x: hidden;
-	}
+}
+.homepage-section {
+	padding-top: 0px;
+}
 .home-bg {
     background-image: url("img/chgo-05.jpg");
     background-position: center center;
@@ -140,15 +143,14 @@ hr {
     background-size: cover;
 }
 .home-statement {
-	margin: 0 7%;
-	padding: 5rem 7% 3rem;
+	padding: 13rem 7% 3rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
 	background-color: #120f355f;
 }
 .page-section {
-	padding-top: 250px;
+	padding-top: 140px;
 	padding-bottom: 70px;
 }
 .container-fluid {
@@ -216,23 +218,11 @@ hr {
 	font-size:smaller;
 	color: white;
 	letter-spacing:normal;
-
 }
-html.opacity:hover img {
-	opacity: 1;
-}
-.btn-success a:active { 
-	color: white;
-}
-.section, img, .btn:hover  {
-	-webkit-transition: all 350ms ease-in-out 0s;
-	transition: all 350ms ease-in-out 0s;
-}
-
  /*Small devices (landscape phones, 576px and up)*/
 @media screen and(min-width: 576px) { 
-	body {
-			padding-top: 140px;
+		.page-section {
+			padding-top: 150px;
 		}
 		.navbar-brand {
 			padding-left: 0.2rem;
@@ -247,14 +237,13 @@ html.opacity:hover img {
  /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 		.page-section {
-			padding-top: 120px;
+			padding-top: 180px;
 		}
 		.navbar-brand {
 			max-width: 35%;
 		}
 		.home-statement {
-			margin: 0 7%;
-			padding: 17rem 20% 7rem;
+			padding: 15rem 20% 7rem;
 		}
 		.nav-pills .nav-link {
 			font-size: large;
