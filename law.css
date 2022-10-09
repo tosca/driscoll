@@ -13,10 +13,8 @@
 	/* padding-top: 200px; */
 	overflow-x: hidden;
 }
-.color{ color:#075091;}
 .color {color:#28246a;}
 .color {color: #120f35;}
-.green {color:#65a548;} 
 .silver { color: #b4b9bd; }
 .black{ color:#121214; }
 .white { color: whitesmoke;}
@@ -28,9 +26,6 @@ img {
 	max-width: 100%;
 	max-height: 100%;
 	height: auto;
-}
-.cursor-pointer{
-	cursor: crosshair;
 }
 .ptb-40 { 
 	padding-top: 40px;
@@ -59,7 +54,6 @@ hr {
 	height: 5rem;
 	background-color: #28246a;
 	background-color: #120f35;
-	
 	color: whitesmoke;
 }
 .top-contact a {
@@ -151,7 +145,6 @@ hr {
 }
 .page-section {
 	padding-top: 140px;
-	padding-bottom: 70px;
 }
 .container-fluid {
 	--bs-gutter-x: 0; 
@@ -163,21 +156,7 @@ hr {
 	letter-spacing: 2px;
 	text-align: center;
 }
-.contact-statement {
-	margin: 0 10%;
-	padding: 3rem 5% 5rem;
-	font-weight: 400;
-	font-size: large;
-	color: white;
-	background-color: #120f355f;
-}
-.address .section-title {
-	color: whitesmoke;
-}
-.address .email {
-	font-size: smaller;
-	text-align: left;
-}
+
 .page-heading {
 	font-family: 'Cinzel', sans-serif;
 	letter-spacing: 4px;
@@ -198,9 +177,8 @@ hr {
 	justify-content: center;
  }
 /***** contact   *****/
-
 .contact-section {
-	padding-top: 5rem;
+	padding-top: 0;
 }
 .contact-bg {
     background-image: url(img/court-1.jpg);
@@ -211,12 +189,31 @@ hr {
 .address {
 	padding: 10px 0 50px;
 }
-.address a:hover {
-	color: #888888;
+.address .section-title {
+	color: white;
+}
+.address .sub-heading a {
+	color: white;
+	text-decoration: none;
+}
+.address .sub-heading a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.address .email {
+	font-size: smaller;
+	text-align: left;
+}
+.contact-statement {
+	margin: 0 10%;
+	padding: 3rem 5% 5rem;
+	font-weight: 400;
+	font-size: large;
+	color: white;
+	background-color: #120f355f;
 }
 .mailto {
 	font-size:smaller;
-	color: white;
 	letter-spacing:normal;
 }
  /*Small devices (landscape phones, 576px and up)*/
@@ -267,7 +264,9 @@ hr {
 
 a {
 	color: #28246a;
+	text-decoration: none;
 }
 a:hover {
-	color: #0b092d;
+	/* color: #0b092d; */
+	text-decoration: underline;
 }
