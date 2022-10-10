@@ -244,14 +244,7 @@ hr {
 		.nav-pills .nav-link {
 			font-size: large;
 		}
-		.home-bg {
-			background-attachment: fixed;
-			background-size: cover;
-		}
-		.contact-bg {
-			background-attachment: fixed;
-			background-size: cover;
-		}
+		
  }
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
