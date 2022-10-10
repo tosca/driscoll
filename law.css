@@ -114,7 +114,6 @@ hr {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #28246a;
     background-color: #faf9f9;
-    font-size: 16px;
 }
 .navbar-brand a:hover, .nav-pills .nav-link a:hover {
 	    color:#075091;
@@ -250,9 +249,11 @@ hr {
 @media (min-width: 992px) { 
 	.home-bg {
 		background-attachment: fixed;
+		background-size: cover;
 	}
 	.contact-bg {
 		background-attachment: fixed;
+		background-size: cover;
 	}
  }
 /*
