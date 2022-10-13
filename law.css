@@ -136,14 +136,16 @@ hr {
     background-size: cover;
 }
 .home-statement {
-	padding: 13rem 7% 3rem;
+	margin: 0 10%;
+	padding: 3rem 5% 5rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
 	background-color: #120f355f;
+	background-color: #120f3570;
 }
 .page-section {
-	padding-top: 140px;
+	padding-top: 170px;
 }
 .container-fluid {
 	--bs-gutter-x: 0; 
@@ -239,12 +241,11 @@ hr {
 			max-width: 35%;
 		}
 		.home-statement {
-			padding: 15rem 20% 7rem;
+			padding: 9rem 3% 7rem;
 		}
 		.nav-pills .nav-link {
 			font-size: large;
-		}
-		
+		}		
  }
  /* Large devices (desktops, 992px and up)
  @media (min-width: 992px){
@@ -257,7 +258,6 @@ hr {
 		background-size: cover;
 	}
 }*/
-
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  
 	.home-statement {
