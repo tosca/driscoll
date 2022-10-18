@@ -235,7 +235,7 @@ hr {
  /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 		.page-section {
-			padding-top: 180px;
+			padding-top: 70px;
 		}
 		.navbar-brand {
 			max-width: 35%;
