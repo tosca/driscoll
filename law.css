@@ -5,12 +5,6 @@
 	background-color: white;
 	color: #121214;
 	color: #28246a;
-	/*	padding: 0;
-	margin: 0;
-	display: block;
-	height: 100%;
-	width: 100%;
-	/* padding-top: 200px; */
 	overflow-x: hidden;
 }
 .color {color:#28246a;}
@@ -77,6 +71,10 @@ hr {
 	padding-top: 0rem;
 	padding-bottom: 0rem;
 }
+.navbar .border-bottom {
+	background-color: #120f35;	
+	min-height: 4px;
+}
 .navbar-brand {
 	max-width: 70%;
 }
@@ -137,7 +135,7 @@ hr {
 }
 .home-statement {
 	margin: 0 10%;
-	padding: 3rem 5% 5rem;
+	padding: 5rem 3% 5rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
@@ -145,10 +143,7 @@ hr {
 	background-color: #120f3570;
 }
 .page-section {
-	padding-top: 210px;
-}
-.container-fluid {
-	--bs-gutter-x: 0; 
+	padding-top: 220px;
 }
 .section-title {
 	font-family: 'Cinzel', sans-serif;
@@ -157,7 +152,6 @@ hr {
 	letter-spacing: 2px;
 	text-align: center;
 }
-
 .page-heading {
 	font-family: 'Cinzel', sans-serif;
 	letter-spacing: 4px;
@@ -178,6 +172,10 @@ hr {
 	justify-content: center;
  }
 /***** contact   *****/
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
 .contact-section {
 	padding-top: 0;
 }
@@ -207,7 +205,7 @@ hr {
 }
 .contact-statement {
 	margin: 0 10%;
-	padding: 3rem 5% 5rem;
+	padding: 10rem 5% 7rem;
 	font-weight: 400;
 	font-size: large;
 	color: white;
@@ -241,15 +239,23 @@ hr {
 			max-width: 35%;
 		}
 		.home-statement {
-			padding: 9rem 3% 7rem;
+			padding: 14rem 3% 3rem;
 		}
 		.nav-pills .nav-link {
 			font-size: large;
 		}		
  }
- /* Large devices (desktops, 992px and up)
+ /* Large devices (desktops, 992px and up)*/
  @media (min-width: 992px){
-}*/
+	.home-bg {
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.contact-bg {
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 	.navbar-brand {
@@ -259,7 +265,6 @@ hr {
 	padding: 20rem 7% 7rem;
 	} 
 }
-
 /* XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {... }
 */
