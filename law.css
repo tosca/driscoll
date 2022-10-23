@@ -145,7 +145,7 @@ hr {
 	background-color: #120f3570;
 }
 .page-section {
-	padding-top: 170px;
+	padding-top: 210px;
 }
 .container-fluid {
 	--bs-gutter-x: 0; 
@@ -234,9 +234,9 @@ hr {
 }
  /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-		.page-section {
-			padding-top: 150px;
-		}
+		.page-section{
+			padding-top: 170px;
+		} 
 		.navbar-brand {
 			max-width: 35%;
 		}
@@ -249,14 +249,6 @@ hr {
  }
  /* Large devices (desktops, 992px and up)
  @media (min-width: 992px){
-	.home-bg {
-		background-attachment: fixed;
-		background-size: cover;
-	}
-	.contact-bg {
-		background-attachment: fixed;
-		background-size: cover;
-	}
 }*/
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
