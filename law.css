@@ -1,11 +1,11 @@
  body {
-	font-family: 'Cinzel', 'Open Sans', sans-serif;
-font: 1rem/1.8 var(--bs-font-sans-serif);
+	/* font-family: 'Cinzel', 'Open Sans', sans-serif; */
+	font: 1rem/1.8 var(--bs-font-sans-serif);
 	font-weight: 400;
 	background-color: white;
 	color: #121214;
 	color: #28246a;
-/*	padding: 0;
+	/*	padding: 0;
 	margin: 0;
 	display: block;
 	height: 100%;
@@ -235,7 +235,7 @@ hr {
  /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 		.page-section {
-			padding-top: 70px;
+			padding-top: 150px;
 		}
 		.navbar-brand {
 			max-width: 35%;
