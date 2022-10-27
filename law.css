@@ -1,6 +1,6 @@
  body {
 	/* font-family: 'Cinzel', 'Open Sans', sans-serif; */
-	font: 1rem/1.8 var(--bs-font-sans-serif);
+	font: 1rem/1.7 var(--bs-font-sans-serif);
 	font-weight: 400;
 	background-color: white;
 	color: #121214;
@@ -76,7 +76,8 @@ hr {
 	min-height: 4px;
 }
 .navbar-brand {
-	max-width: 70%;
+	max-width: 35%;
+	padding-bottom: 0;
 }
 .sm-brand {
 	font-size: (--bs-navbar-brand-font-size);
@@ -88,6 +89,7 @@ hr {
 }	
 .navbar-toggler {
 	padding: 0.2rem;
+	margin-top: 0rem;
 }
 .navbar-toggler-icon {
 	border-radius: none;
@@ -125,7 +127,7 @@ hr {
 	overflow-x: hidden;
 }
 .homepage-section {
-	padding-top: 0px;
+	padding-top: 110px;
 }
 .home-bg {
     background-image: url("img/chgo-05.jpg");
@@ -139,7 +141,6 @@ hr {
 	font-weight: 400;
 	font-size: large;
 	color: white;
-	background-color: #120f355f;
 	background-color: #120f3570;
 }
 .page-section {
@@ -235,9 +236,6 @@ hr {
 		.page-section{
 			padding-top: 170px;
 		} 
-		.navbar-brand {
-			max-width: 35%;
-		}
 		.home-statement {
 			padding: 14rem 3% 3rem;
 		}
