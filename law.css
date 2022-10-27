@@ -243,10 +243,12 @@ hr {
  /* Large devices (desktops, 992px and up)*/
  @media (min-width: 992px){
 	.home-bg {
-		background-attachment: fixed;	
+		background-attachment: fixed;
+		background-size: cover;	
 	}
 	.contact-bg {
 		background-attachment: fixed;
+		background-size: cover;
 	}
 }/* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
