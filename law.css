@@ -134,9 +134,8 @@ hr {
 }
 .home-bg {
     background-image: url("img/chgo-05.jpg");
-	background-attachment: scroll;
-    background-repeat: no-repeat;
-	background-position: center center;
+    background-position: center center;
+	background-repeat: no-repeat;
     background-size: cover;
 }
 .home-statement {
@@ -186,10 +185,9 @@ hr {
 }
 .contact-bg {
 	background-image: url("img/court-1.jpg");
-	background-attachment: scroll;
-    background-repeat: no-repeat;
-	background-position: center center;
-    background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: cover;
 }
 .address {
 	padding: 10px 0 50px;
