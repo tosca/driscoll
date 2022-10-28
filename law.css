@@ -245,14 +245,15 @@ hr {
  }
  /* Large devices (desktops, 992px and up)*/
  @media (min-width: 992px){
-	.home-bg {
-		background-attachment: fixed;	
-	}
+	
 	.contact-bg {
 		background-attachment: fixed;
 	}
 }/* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+	.home-bg {
+		background-attachment: fixed;	
+	}
 	.home-statement {
 	padding: 20rem 7% 7rem;
 	} 
