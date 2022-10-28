@@ -11,14 +11,12 @@
 .color {color: #120f35;}
 .silver { color: #b4b9bd; }
 .black{ color:#121214; }
-.white { color: whitesmoke;}
 .bg-color {
 	background-color:whitesmoke;
 }
 img {
-	 display: block;
+	display: block;
 	max-width: 100%;
-	max-height: 100%;
 	height: auto;
 }
 .ptb-40 { 
@@ -77,7 +75,7 @@ hr {
 	min-height: 4px;
 }
 .navbar-brand {
-	max-width: 70%;
+	max-width: 60%;
 	padding-bottom: 0;
 }
 .sm-brand {
@@ -135,8 +133,10 @@ hr {
 	padding-top: 110px;
 }
 .home-bg {
+	width: 100%;
+	height: auto;
     background-image: url("img/chgo-05.jpg");
-    background-position: center center;
+	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -186,10 +186,12 @@ hr {
 	padding-top: 0;
 }
 .contact-bg {
-    background-image: url(img/court-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	width: 100%;
+	height: auto;
+	background-image: url("img/court-1.jpg");
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .address {
 	padding: 10px 0 50px;
@@ -248,12 +250,10 @@ hr {
  /* Large devices (desktops, 992px and up)*/
  @media (min-width: 992px){
 	.home-bg {
-		background-attachment: fixed;
-		background-size: cover;	
+		background-attachment: fixed;	
 	}
 	.contact-bg {
 		background-attachment: fixed;
-		background-size: cover;
 	}
 }/* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
