@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Launch index.html${workspaceFolder}",
-            "file": "${workspaceFolder}/index.html"
+            "name": "Open undex.html",
+            "file": "c:\\Root\\Projects\\driscoll\\index.html"
         }
       
     ]
